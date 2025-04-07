@@ -16,13 +16,22 @@ html {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #2865a7, #0057b349);
-    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #000000, #3653725b);
+    color: rgb(233, 224, 224);
     text-align: center;
     padding: 40px 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.438);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.699);
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+     
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+     
 }
-
+ 
 /* Ensuring content does not overflow */
 main {
     width: 90%;
